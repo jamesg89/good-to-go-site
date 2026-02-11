@@ -1,9 +1,21 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import Nav from '$lib/components/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<svelte:head>
+	<title>Good To Go Contracting | Premium Landscape & Hardscape</title>
+	<meta
+		name="description"
+		content="Good To Go Contracting delivers exceptional landscape design, installation, outdoor lighting, carpentry, concrete, and earthwork services."
+	/>
+</svelte:head>
+
+<Nav />
+<main>
+	{@render children()}
+</main>
+<Footer />
