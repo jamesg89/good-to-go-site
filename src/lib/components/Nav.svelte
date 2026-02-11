@@ -45,7 +45,7 @@
 	<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
 		<!-- Logo -->
 		<a href="/" class="group flex items-center gap-3" onclick={closeAll}>
-			<img src={logo} alt="Good To Go Contracting" class="h-12 w-auto brightness-110" />
+			<img src={logo} alt="Good To Go Contracting" class="h-16 w-auto brightness-110" />
 		</a>
 
 		<!-- Desktop Nav -->

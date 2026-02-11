@@ -27,7 +27,7 @@
 			<!-- Brand -->
 			<div class="lg:col-span-1">
 				<a href="/" class="inline-block">
-					<img src={logo} alt="Good To Go Contracting" class="h-14 w-auto brightness-110" />
+					<img src={logo} alt="Good To Go Contracting" class="h-20 w-auto brightness-110" />
 				</a>
 				<p class="mt-6 text-sm leading-relaxed text-zinc">
 					Premium landscape design, installation, and hardscape services. Building extraordinary outdoor spaces.
